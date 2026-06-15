@@ -41,3 +41,20 @@ Relational database designed for the Livingston Amateur Radio Club (LARC) to rep
 ## Project Context
 
 Built as part of a graduate-level database design course. Source data was a real club membership roster. Officer roles were sourced from club records and merged during the staging phase.
+
+## Design Artifacts
+
+### Conceptual ERD
+Shows entities, attributes, and relationships before implementation.
+
+![Conceptual ERD](images/conceptual_erd.jpg)
+
+### Logical Data Model
+Fully attributed 3NF model with PKs, FKs, and column names finalized.
+
+![Logical Model](images/logical_model.jpg)
+
+### Live Query Results (SSMS)
+Members table populated from the CSV pipeline, queried in SQL Server Management Studio.
+
+![SSMS Query Results](images/ssms_query_results.jpg)
